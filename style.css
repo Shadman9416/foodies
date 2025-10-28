@@ -14,36 +14,38 @@
 h1 {
   font-family: "Inter";
   font-weight: 600;
-  font-size: 75px;
+  font-size: 4.6875rem;
   color: black;
 }
 
 h2 {
   font-family: "Inter";
   font-weight: 500;
-  font-size: 60px;
+  font-size: 3.75rem;
   color: black;
 }
 
 h3 {
   font-family: "Inter";
   font-weight: 500;
-  font-size: 32px;
+  font-size: 2rem;
   color: black;
 }
 
 p {
   font-family: "Inter";
   font-weight: 400;
-  font-size: 16px;
+  font-size: 1rem;
   color: black;
 }
 
 .header {
   background-color: var(--light-green);
   padding-top: 42px;
-  padding-left: 135px;
-  padding-right: 135px;
+  /* padding-left: 135px; */
+  /* padding-right: 135px; */
+  padding-left: 9%;
+  padding-right: 9%;
 }
 
 #logo {
@@ -68,7 +70,7 @@ nav {
 a {
   font-family: "Inter";
   font-weight: 400;
-  font-size: 16px;
+  font-size: 1rem;
   color: black;
   text-decoration: none;
 }
@@ -84,7 +86,7 @@ a {
 }
 
 .hero-content {
-  padding-right: 100px;
+  max-width: 50%;
 }
 .hero-content h1 {
   margin-bottom: 10px;
@@ -102,20 +104,26 @@ a {
   border: none;
   font-family: "Inter";
   font-weight: 400;
-  font-size: 16px;
+  font-size: 1rem;
   color: white;
   cursor: pointer;
 }
 
 #hero-image {
   position: relative;
+  /* margin-right: 10%; */
+  max-width: 50%;
 }
 
+#main-image {
+  width: 100%;
+}
 #Ratings {
   position: absolute;
   top: 250px;
   left: -100px;
   z-index: 10;
+  width: 50%;
 }
 
 #Good {
@@ -123,6 +131,7 @@ a {
   top: 180px;
   left: 300px;
   z-index: 10;
+  width: 50%;
 }
 
 .clients {
@@ -135,7 +144,7 @@ a {
   display: flex;
   justify-content: space-between;
   padding: 60px 0px;
-  margin: 100px 135px;
+  margin: 100px 9%;
   background-color: white;
   border-style: solid none;
   border-color: #70707036;
@@ -149,11 +158,104 @@ a {
 }
 
 .usp h3 {
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 400;
 }
 
 .usp p {
-  font-size: 14px;
+  font-size: 0.8rem;
   font-weight: 300;
 }
+
+.our-benefit {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 9%;
+  padding-right: 9%;
+  align-items: center;
+  gap: 80px;
+}
+.benefit-img {
+  background-color: var(--light-green);
+  width: 50%;
+  max-width: 540px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 60px;
+}
+
+.benefit-content {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.benefit-content h2 {
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+
+.all-benefit {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.all-benefit i {
+  margin-right: 22px;
+}
+
+.our-stars {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 9%;
+  padding-right: 9%;
+  margin-top: 100px;
+}
+
+.our-stars-content {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.our-stars-content p {
+  margin-bottom: 20px;
+}
+
+.our-stars-content h2 {
+  margin-bottom: 60px;
+}
+
+.our-stars-counter {
+  display: flex;
+  gap: 80px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.counter h2 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  color: var(--primary-green);
+}
+
+.counter {
+  margin-bottom: 50px;
+}
+
+.our-stars-img {
+  width: 50%;
+  background-color: var(--light-green);
+  display: flex;
+  justify-content: flex-end;
+  padding-bottom: 90px;
+}
+
+/* .our-stars-img img{
+  max-width: 445px;
+} */
