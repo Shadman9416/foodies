@@ -404,3 +404,54 @@ a {
   border-width: 2px;
 }
 
+.cta {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 37px;
+  background-image: url(./assets/cta.png);
+  margin-left: 9%;
+  margin-right: 9%;
+  height: 460px;
+  text-align: center;
+  background-size: cover;
+  margin-bottom: 60px;
+}
+
+.cta h2 {
+  color: white;
+  width: 70%;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-left: 9%;
+  margin-right: 9%;
+  padding-top: 76px;
+  padding-bottom: 76px;
+}
+
+.sitemap {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.footer-logo {
+  width: 25%;
+}
+
+.sitemap h3 {
+  font-size: 24px;
+}
+
+.contact {
+  width: 25%;
+}
+
+.contact h3 {
+  font-size: 24px;
+}
