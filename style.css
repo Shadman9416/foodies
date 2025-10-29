@@ -39,6 +39,13 @@ p {
   color: black;
 }
 
+del {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 1rem;
+  color: #767675;
+}
+
 .header {
   background-color: var(--light-green);
   padding-top: 42px;
@@ -259,3 +266,141 @@ a {
 /* .our-stars-img img{
   max-width: 445px;
 } */
+
+.our-features {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+  margin-bottom: 150px;
+  padding-left: 9%;
+  padding-right: 9%;
+}
+
+#our-features-p {
+  margin-bottom: 20px;
+}
+
+#our-features-h2 {
+  margin-bottom: 70px;
+}
+
+.feature-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.feature {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+}
+
+.feature-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 35px;
+  gap: 30px;
+  width: 292.5px;
+  height: 292.5px;
+  background-color: var(--light-green);
+  border: solid;
+  border-color: var(--primary-green);
+  border-width: 1px;
+}
+
+.feature img {
+  width: 292.5px;
+  border: solid;
+  border-color: var(--primary-green);
+  border-width: 1px;
+}
+
+.feature-btn {
+  width: 148px;
+  height: 42px;
+  background-color: #e6f9f0;
+  border: none;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 1rem;
+  color: var(--primary-green);
+  cursor: pointer;
+}
+
+.our-product {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+  margin-bottom: 150px;
+  padding-left: 9%;
+  padding-right: 9%;
+}
+
+#our-product-p {
+  margin-bottom: 20px;
+}
+
+#our-product-h2 {
+  margin-bottom: 60px;
+}
+.product-container {
+  display: flex;
+  gap: 30px;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 270px;
+  height: 445px;
+  gap: 15px;
+  border: solid;
+  border-width: 2px;
+  background-color: white;
+  border-color: lightgray;
+}
+
+#selected-product {
+  background-color: var(--light-green);
+  border: solid;
+  border-width: 2px;
+  border-color: var(--primary-green);
+}
+
+#price {
+  display: flex;
+  gap: 8px;
+}
+
+#price del p {
+  display: inline;
+}
+
+#price p {
+  color: var(--primary-green);
+}
+
+.product-btn {
+  width: 177px;
+  height: 57px;
+  background-color: #e6f9f0;
+  border: none;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 1rem;
+  color: var(--primary-green);
+  cursor: pointer;
+  border: solid;
+  border-width: 2px;
+}
+
