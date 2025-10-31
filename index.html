@@ -26,8 +26,20 @@
             <li><a href="#">Our Company</a></li>
             <li><a href="#">Pages</a></li>
           </ul>
+          <div class="hamburger-menu">
+            <i class="fas fa-bars"></i>
+          </div>
         </div>
       </nav>
+      <div class="mobile-menu-container">
+        <ul class="mobile-menu">
+          <li><a href="#" id="selected-menu">Home</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Service Us</a></li>
+          <li><a href="#">Our Company</a></li>
+          <li><a href="#">Pages</a></li>
+        </ul>
+      </div>
 
       <!-- Hero section -->
       <div class="hero">
@@ -355,4 +367,13 @@
       <p>Copyright © 2021 Foodies.</p>
     </div>
   </body>
+
+  <script>
+        const hamburgerMenu = document.querySelector('.hamburger-menu');
+        const mobileMenuContainer = document.querySelector('.mobile-menu-container');
+
+        hamburgerMenu.addEventListener('click', () => {
+          mobileMenuContainer.style.display = mobileMenuContainer.style.display === 'block' ? 'none' : 'block';
+        });
+      </script>
 </html>

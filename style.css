@@ -72,6 +72,16 @@ nav {
   list-style: none;
 }
 
+.hamburger-menu {
+  display: none;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.mobile-menu-container {
+  display: none;
+}
+
 a {
   font-family: "Inter";
   font-weight: 400;
@@ -515,6 +525,31 @@ footer {
 @media (max-width: 768px) {
   .menu {
     display: none;
+  }
+
+  .mobile-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    list-style: none;
+    padding: 20px;
+    background-color: var(--light-green);
+    position: absolute;
+    top: 100px;
+    right: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 100;
+    text-align: center;
+  }
+
+  .mobile-menu-container {
+    display: none;
+  }
+
+  .hamburger-menu {
+    display: block;
+    color: var(--primary-green);
   }
 
   .hero {
